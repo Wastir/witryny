@@ -1,0 +1,19 @@
+
+.img{
+    float: left;
+    position: relative;
+}
+.cena{
+    font-size: 120px;
+}
+.kupteraz{
+    margin-top:3%;
+    margin-left: 8%;
+}
+.Opis{
+    margin-top: 5%;
+    font-size: 150%;
+    width: 30%;
+    text-align:center;
+
+}

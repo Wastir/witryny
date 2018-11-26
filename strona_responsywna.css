@@ -1,0 +1,173 @@
+body {
+    background-image: url('obrazy/cobbrick.jpg');
+    background-color: grey;
+    margin-top:0%;
+    margin:0;
+}
+
+@font-face
+{
+    font-family: Minecraft;
+    src: url("blocked.ttf");
+}
+#Scamex 
+{ 
+    font-family: Minecraft; 
+    font-size: 600%;
+}
+.Oferty{
+    font-family: Minecraft;
+    font-size: 400%;
+    margin-top: 6%;
+    text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.slider-holder
+        {
+            width: 800px;
+            height: 400px;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5px;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        .image-holder
+        {
+            width: 2400px;
+            background-color: red;
+            height: 400px;
+            clear: both;
+            position: relative;
+            
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+        
+        .slider-image
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+        }
+        
+        #slider-image-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+        
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -800px;
+        }
+        
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+        
+        .button-holder
+        {
+            position: relative;
+            top: -20px;
+        }
+        
+        .slider-change
+        {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-radius: 2px;
+            background-color: brown;
+        }
+.cardleft {
+      margin-left: 35%;
+      margin-top: 2%;
+      width: 100px;
+      height: 100px;
+      background-image: url('obrazy/brick_icon_white.jpg');
+      border: 2px solid #fff;
+    }
+.cardleft:hover {
+      margin-left: 35%;
+      margin-top: 2%;
+      width: 100px;
+      height: 100px;
+      background-image: url('obrazy/brick_icon_black.jpg');
+      border: 2px solid #000000;
+    color: white;
+    }
+.cardright {
+      float:right;
+      margin-right: 35%;
+      margin-top: 2%;
+      width: 100px;
+      height: 100px;
+      background-image: url('obrazy/brick_icon_white.jpg');
+      border: 2px solid #fff;
+    }
+.cardright:hover {
+      float:right;
+      margin-right: 35%;
+      margin-top: 2%;
+      width: 100px;
+      height: 100px;
+      background-image: url('obrazy/brick_icon_black.jpg');
+      border: 2px solid #000000;
+    color: white;
+    }
+    .one {
+      transition: box-shadow 0.2s ease-in-out;
+    }
+    .one:hover {
+      box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    }
+.boxy1{
+    font-family: Minecraft; 
+    text-align: left;
+    padding-top: 30%;
+    transform: rotate(-30deg);
+}
+.boxy2{
+    font-family: Minecraft; 
+    padding-top: 30%;
+    transform: rotate(30deg);
+    text-align: right;
+    
+}
+.container {
+    position: relative;
+    text-align: center;
+}
+.top-left {
+    font-family: Minecraft; 
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: black;
+    font-size: 150%;
+}
+.top-right {
+    font-family: Minecraft; 
+    position: absolute;
+    top: 8px;
+    right: 17%;
+    color: white;
+    font-size: 200%;
+}
+.centered {
+    font-family: Minecraft; 
+    position: absolute;
+    top: 8px;
+    left: 34%;
+    color: black;
+    font-size: 150%;
+}
